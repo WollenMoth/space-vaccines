@@ -5,6 +5,8 @@
   --color-primary-hover: #1831be;
   --color-secondary: #f1f5ff;
   --color-secondary-hover: #e1eaff;
+  --color-accent: #ffd012;
+  --color-accent-secondary: #fff8dd;
   --color-headings: #1f3e72;
   --color-body: #6d7b93;
 }
@@ -73,4 +75,31 @@ h2 {
   color: var(--color-primary);
   background-color: var(--color-secondary-hover);
   border-color: var(--color-secondary-hover);
+}
+
+/* Icons */
+
+.icon-primary {
+  color: var(--color-primary);
+}
+
+.icon-accent {
+  color: var(--color-accent);
+}
+
+.icon-container {
+  align-items: center;
+  background: var(--color-secondary);
+  border-radius: 10%;
+  display: inline-flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.icon-container-accent {
+  background: var(--color-accent-secondary);
+}
+
+.icon-container-2xl {
+  padding: 1rem;
 }
