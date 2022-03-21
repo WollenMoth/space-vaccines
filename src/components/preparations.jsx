@@ -6,7 +6,7 @@ import PreparationCards from "./preparationCards";
 function Preparations(props) {
   return (
     <div className="grid">
-      <div className="grid-content">
+      <div className="grid-content-right">
         <h2>Preparations Before Vaccine</h2>
         <p>
           The success of vaccines is strongly influenced by the strength of the
@@ -16,7 +16,7 @@ function Preparations(props) {
       </div>
       <div className="grid-image-container grid-bottom-left" />
       <Image src={preparationsImage} className="grid-image grid-left" />
-      <PreparationCards />
+      <PreparationCards className="botton-right" />
     </div>
   );
 }

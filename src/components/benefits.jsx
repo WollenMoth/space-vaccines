@@ -11,9 +11,7 @@ function Benefits(props) {
           identify the following 4 benefits of COVID-19 vaccination:
         </p>
       </div>
-      <div className="grid-bottom">
-        <BenefitCards />
-      </div>
+      <BenefitCards className="grid-bottom" />
     </div>
   );
 }
