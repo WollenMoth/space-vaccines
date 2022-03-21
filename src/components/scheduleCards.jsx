@@ -11,7 +11,7 @@ import {
 
 function ScheduleCards(props) {
   return (
-    <CardGroup className="h-group">
+    <CardGroup className="h-group" style={{width: "90%"}}>
       <ScheduleCard
         icon={faLocationDot}
         label="Location"

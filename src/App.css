@@ -10,6 +10,7 @@
   --color-headings: #1d3c70;
   --color-body: #6d7b93;
   --color-shadow: #3858d650;
+  --color-gradient: #00d4ff;
   --border-radius: 10px;
   --icon-size: 4.2rem;
   --icon-size-2xl: 7.5rem;
@@ -118,13 +119,26 @@ h2 {
   width: var(--icon-size-2xl);
 }
 
+.icon-label {
+  color: var(--color-headings);
+  line-height: 1.1;
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  margin: 0 1rem;
+}
+
+.icon-label-sm {
+  font-size: 1.8rem;
+}
+
 /* Cards */
 
 .card {
   border: 4px solid #fafaff;
   border-radius: var(--border-radius);
   min-width: 280px;
-  opacity: 0.9;
+  opacity: 0.95;
   padding: 2rem;
 }
 
@@ -279,6 +293,49 @@ h2 {
 
 .collapsible-group > .card {
   margin-bottom: 2rem;
+}
+
+/* Grid */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.grid-content {
+  padding: 10rem 10rem 10rem 0;
+}
+
+.grid-image-container {
+  background: var(--color-primary);
+  background: linear-gradient(
+    135deg,
+    var(--color-gradient) 0%,
+    var(--color-primary) 100%
+  );
+}
+
+.grid-left {
+  grid-column: 1;
+  grid-row: 1 / 3;
+}
+
+.grid-right {
+  grid-column: 2;
+  grid-row: 1 / 3;
+}
+
+.grid-bottom {
+  grid-column: 1 / 3;
+  grid-row: 2;
+}
+
+/* Flex */
+
+.flex {
+  display: flex;
+  align-items: center;
 }
 
 /* Misc */
