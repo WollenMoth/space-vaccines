@@ -9,9 +9,9 @@ import {
   faSyringe,
 } from "@fortawesome/free-solid-svg-icons";
 
-function ScheduleCards(props) {
+function ScheduleCards({ className }) {
   return (
-    <CardGroup className="h-group">
+    <CardGroup className={"h-group" + ((className && ` ${className}`) || "")}>
       <ScheduleCard
         icon={faLocationDot}
         label="Location"

@@ -8,9 +8,9 @@ import {
   faVideo,
 } from "@fortawesome/free-solid-svg-icons";
 
-function ContactCards(props) {
+function ContactCards({ className }) {
   return (
-    <CardGroup>
+    <CardGroup className={className}>
       <ContactCard
         icon={faPhone}
         title="Call"

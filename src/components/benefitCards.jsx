@@ -8,9 +8,9 @@ import {
   faVirus,
 } from "@fortawesome/free-solid-svg-icons";
 
-function BenefitCards(props) {
+function BenefitCards({ className }) {
   return (
-    <CardGroup>
+    <CardGroup className={className}>
       <BenefitCard
         icon={faVirus}
         title="Minimize the spread of viruses"

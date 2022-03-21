@@ -9,9 +9,11 @@ import {
   faXmark,
 } from "@fortawesome/free-solid-svg-icons";
 
-function PreparationCards(props) {
+function PreparationCards({ className }) {
   return (
-    <CardGroup className="collapsible-group">
+    <CardGroup
+      className={"collapsible-group" + ((className && ` ${className}`) || "")}
+    >
       <PreparationCard
         icon={faBeerMugEmpty}
         title="Avoid alcoholic beverages"
