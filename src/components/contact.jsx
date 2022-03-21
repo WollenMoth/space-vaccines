@@ -16,7 +16,7 @@ function Contact(props) {
       </div>
       <div className="grid-image-container grid-bottom-right" />
       <Image src={contactImage} className="grid-image grid-right" />
-      <ContactCards className="grid-botton-left mx-4" />
+      <ContactCards className="grid-botton-left me-5" />
     </div>
   );
 }
