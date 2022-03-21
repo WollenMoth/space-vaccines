@@ -311,11 +311,11 @@ h2 {
 }
 
 .grid-content {
-  padding: 10rem 10rem 10rem 0;
+  padding: 10rem 4rem 10rem 0;
 }
 
 .grid-content-right {
-  padding: 10rem 0 10rem 10rem;
+  padding: 10rem 0 10rem 4rem;
 }
 
 .grid-image-container {
