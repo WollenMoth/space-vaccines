@@ -338,6 +338,17 @@ h2 {
   align-items: center;
 }
 
+/* Images */
+
+.image {
+  height: 100px;
+}
+
+.image-gray {
+  filter: grayscale(100%);
+  opacity: 0.25;
+}
+
 /* Misc */
 
 .clickable {
