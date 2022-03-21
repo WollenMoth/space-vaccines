@@ -6,7 +6,7 @@ import PreparationCards from "./preparationCards";
 function Preparations(props) {
   return (
     <div className="grid">
-      <div className="grid-content-right">
+      <div className="grid-content">
         <h2>Preparations Before Vaccine</h2>
         <p>
           The success of vaccines is strongly influenced by the strength of the

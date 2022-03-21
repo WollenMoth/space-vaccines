@@ -7,7 +7,7 @@ import Sinovac from "../assets/images/sinovac.svg";
 
 function Companies(props) {
   return (
-    <div className="flex mt-5">
+    <div className="flex m-10">
       <Image src={AstraZeneca} className="image image-gray" />
       <Image src={Sinovac} className="image image-gray" />
       <Image src={Pfizer} className="image image-gray" />

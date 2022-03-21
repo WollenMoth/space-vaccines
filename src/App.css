@@ -240,8 +240,7 @@ h2 {
   border-radius: var(--border-radius);
   gap: 0;
   justify-content: center;
-  margin-bottom: 3rem;
-  width: 90%;
+  width: 80%;
 }
 
 .h-group:hover {
@@ -310,12 +309,12 @@ h2 {
   grid-auto-rows: minmax(100px, auto);
 }
 
-.grid-content {
-  padding: 10rem 4rem 10rem 0;
+.grid-alt {
+  grid-template-columns: 60% 40%;
 }
 
-.grid-content-right {
-  padding: 10rem 0 10rem 4rem;
+.grid-content {
+  padding: 10rem;
 }
 
 .grid-image-container {
@@ -380,4 +379,23 @@ h2 {
 
 .clickable {
   cursor: pointer;
+}
+
+/* Spacing */
+
+.ms-10 {
+  margin-left: 10rem;
+}
+
+.me-6 {
+  margin-right: 6rem;
+}
+
+.mx-10 {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.m-10 {
+  margin: 10rem;
 }

@@ -33,7 +33,7 @@ function Hero(props) {
       </div>
       <div className="grid-image-container grid-right" />
       <Image src={heroImage} className="grid-image grid-right" />
-      <div className="grid-bottom">
+      <div className="grid-bottom ms-10">
         <LabeledIcon icon={faClock} label="Schedule your vaccinations" />
         <ScheduleCards />
       </div>

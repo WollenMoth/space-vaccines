@@ -5,7 +5,7 @@ import contactImage from "../assets/images/contact.webp";
 
 function Contact(props) {
   return (
-    <div className="grid">
+    <div className="grid grid-alt">
       <div className="grid-content">
         <h2>Emergency Contact</h2>
         <p>
@@ -16,7 +16,7 @@ function Contact(props) {
       </div>
       <div className="grid-image-container grid-bottom-right" />
       <Image src={contactImage} className="grid-image grid-right" />
-      <ContactCards className="grid-botton-left me-5" />
+      <ContactCards className="grid-botton-left mx-10" />
     </div>
   );
 }
